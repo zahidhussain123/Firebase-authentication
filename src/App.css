@@ -1,0 +1,45 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.register , .login{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-top: 35px;
+}
+
+.register h3 , .login h3 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+.register input , .login input {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.register button , .login button {
+  background-color: crimson;
+  color: aliceblue;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.logged {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: lightseagreen;
+  color: black;
+  padding: 5px;
+  margin-top: 10px;
+}
